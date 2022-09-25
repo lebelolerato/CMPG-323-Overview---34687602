@@ -11,6 +11,14 @@
                     resource
                     I will use HTTP endpoints for my API to update my database
 
+    Problems I have faced == During the completion of this project, I faced several problems such as:
+                             1. I didnt follow the the guidance documentation provided nor did I watch the videos provided with my full attention, which led me to                                       redoing this project multiple times
+                             2. I used .NET CORE  version 6 instead of version 3, even after I was advised not to use because not a lot of materials regarding it is                                   not available yet. Which led to encounting a lot of errors which I havent seen before and couldnt understand and also making some parts                                 of the guidance documentation document provided to us by the lectures irrelevent.
+                             3. Time Management. Regarding time, I used to wrok under the assumption that I still got time which was not true and backfired on me                                       because I ended up gettting a 500 server error at the last minute resulting in my import link not being valid thus I coulnt host my API                                 on Azure
+                             4. The other thing is that I included my Reference list in my README file only instead of creating a document to add my reference list and                                 I realised this late when I was about to submit since I had to upload the document of GOOGLE FORMS along with my submission. By the                                     time I was done with the document the deadline had passed resulting in failure to mee the deedline.
+                             5. My Authorization was not working properly and Creating an APP SERVICE resource group took longer than I thought.
+     
+     What I have Learned and How to move forward == Well first thing first I learned that I need to follow the instructions precisly given to me, read the instructions                                                     carefully because I i understand the instructions then I can succesfully finish my project and submit it, and also                                                     use the exact requirements of the project as the ones recommended. Secondly I need to learn to manage my time more                                                     efficiently to avoid submitting at last minute and also to be able to spare enough time for anything that could go                                                     wrong. Another thing is that I should normalise reading the project brief before I start with my project and the                                                       project rubric after I'm done with the project to check if I did everything asked of me.
 #### Project 3
     Repositort name == MVC Web Application
 
