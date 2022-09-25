@@ -10,6 +10,37 @@
     Requirements == The API should contain at least one get, post, patch and delete method per
                     resource
                     I will use HTTP endpoints for my API to update my database
+    
+    How my project works == The following methods are methods contained in the models folder and how they work
+	                       1. Zone.cs
+	                          - GET method that retrieves all Zone entries from the database
+	                          - GET method that will retrieve one Zone from the database based on the ID parsed through
+	                          - Create a POST method that will create a new Zone entry on the database
+	                          - Create a PATCH method that will update an existing Zone entry on the database
+	                          - DELETE method that will delete an existing Zone entry on the database
+	                          - Private method in the API that checks if a Zone exists (based on the ID parsed through) before editing or deleting an item
+	                          - GET method that retrieves all devices within a specific zone (based on the zone ID that is parsed through)
+
+
+	                      2. Category
+	                         - GET method that retrieves all Category entries from the database
+	                         - GET method that will retrieve one Category from the database based on the ID parsed through
+	                         - POST method that will create a new Category entry on the database
+	                         - PATCH method that will update an existing Category entry on the database
+	                         - DELETE method that will delete an existing Category entry on the database
+	                         - private method in the API that checks if a Category exists (based on the ID parsed through) before editing or deleting an item
+	                         - GET method that retrieves all devices within a specific category (based on the category ID that is parsed through)
+	                         - GET method that will return the number of zones that are associated to a specific category (use the device entity to join the data)
+
+	                     3. Device
+	                        - GET method that retrieves all Device entries from the database
+	                        - GET method that will retrieve one Device from the database based on the ID parsed through
+	                        - POST method that will create a new Device entry on the database
+	                        - PATCH method that will update an existing Device entry on the database
+	                        - DELETE method that will delete an existing Device entry on the database
+	                        - private method in the API that checks if a Device exists (based on the ID parsed through) before editing or deleting an item
+
+                        When connecting to my database and you get an error, please go to the firewall settings and configure them by add a client IP address
 
     Problems I have faced == During the completion of this project, I faced several problems such as:
                              1. I didnt follow the the guidance documentation provided nor did I watch the videos provided with my full attention, which led me to                                       redoing this project multiple times
@@ -19,10 +50,36 @@
                              5. My Authorization was not working properly and Creating an APP SERVICE resource group took longer than I thought.
      
      What I have Learned and How to move forward == Well first thing first I learned that I need to follow the instructions precisly given to me, read the instructions                                                     carefully because I i understand the instructions then I can succesfully finish my project and submit it, and also                                                     use the exact requirements of the project as the ones recommended. Secondly I need to learn to manage my time more                                                     efficiently to avoid submitting at last minute and also to be able to spare enough time for anything that could go                                                     wrong. Another thing is that I should normalise reading the project brief before I start with my project and the                                                       project rubric after I'm done with the project to check if I did everything asked of me.
+     
+     Reference
+        https://www.youtube.com/watch?v=SR_JEdhxWx0
+
+        https://stackoverflow.com
+
+        https://docs.microsoft.com/en-us/aspnet/core/security/authentication/?view=aspnetcore-6.0
+
+        https://www.dropbox.com/sh/p8fiokfpiqv4gud/AAC5X8SdanTnduTWYzVq4kQ7a?dl=0
+        
+        https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-6.0&tabs=visual-studio
+        
+        https://learn.microsoft.com/en-us/training/modules/build-web-api-aspnet-core/
+        
+        https://learn.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-3.1
+        
+        https://learn.microsoft.com/en-us/training/paths/create-microservices-with-dotnet/
+        
+        https://procodeguide.com/programming/entity-framework-core-in-asp-net-core/
+        
+        https://jd-bots.com/2022/01/24/join-two-entities-in-net-core-using-lambda-and-entity-framework-core/
+        
+        https://learn.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-api-management-using-vs?view=aspnetcore-6.0
+        
+        https://thejpanda.com/2020/08/10/python-automating-asp-net-core-web-api-creation-that-communicates-with-your-database-in-60-seconds-or-less/
+
 #### Project 3
     Repositort name == MVC Web Application
 
-    Requirements == understand architectural patterns as well as pay specific attention to implementing coding principle design         patterns
+    Requirements == understand architectural patterns as well as pay specific attention to implementing coding principle design patterns
 
 ##### Project 4
     Repository name == Robotic Process Automation
