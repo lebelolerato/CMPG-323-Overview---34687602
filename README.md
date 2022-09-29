@@ -80,6 +80,93 @@
     Repositort name == MVC Web Application
 
     Requirements == understand architectural patterns as well as pay specific attention to implementing coding principle design patterns
+    
+    Repository patterns Implementation
+
+## How my project works
+    For this project I implemented Tier 2 which is the advanced level of the Repository patterns. I started by creating Repositories folder which contains my Generic,
+    Category, Device and Zone repository classes and interfaces
+    
+    ### Repository Folder
+    
+          1. CategoryRepository class == contain all data access operations relating to Categories
+          2. DeviceRepository class == contain all data access operations relating to Devices 
+          3. ZoneRepository class == contain all data access operations relating to Zones
+          4. GenericRepository class == contains all methods used to manipulate data in your tables
+    
+          In my interfaces(IZone, IDevice and ICategory) I will add any additional methods I created and they will be inherited by my Repository classes		  CategoryRepository, DeviceRepository and ZoneRepository will inherit the GenericRepository so that I can be able to acces the methods.
+          
+    
+    ### Controllers
+    
+          In my controller folder I have 4 controller classes namely 
+            1. DevicesContorller == Contains data access operations for the Device table
+            2. CategoriesController == Contains data access operations for the Category table
+            3. ZonesController == Contains data access operations for the Zone table
+            4. HomeController == Contains data access operations to all the available tables (Category, Device, Zone tables)
+            
+	So what I did was I transfered all data access operations from DeviceRepository to the DevicesController, from the CategoryRepository to the 			CategoriesController class, and from the ZoneRepository to the ZonesController class so that when I wanna edit my methods I only edit from one file which the 	      GenericRepository class. I implemented the use of the DeviceRepository class in the DevicesController. Then I implemented the use of the ZoneRepository class 	    in the ZonesController. And I also implemented the use of the CategoryRepository class in the CategoriesController.
+	
+    
+    Problems I have faced == I didnt read the instructions well which in turn resulted in me working in the wrong branch. I only realised that later sp I had to 			      restart the project, create a new branch the implement Tier 2.
+    
+    What I have learned == It is important to read instruction before doing the project because it gives you an idea of what you have to do and allows you not to miss
+    			   important details
+
+    How to solve the problem == Give myself enough time to go through the project brief, make notes on what I need to do for the project and create an execution plan 				      for my project
+    
+    
+    ### Reference List
+    
+    		Anon., 2017. Stake Overflow. [Online] 
+		Available at: https://stackoverflow.com/questions/45119343/c-mvc-confirmation-delete-dialog
+		[Accessed 14 September 2022].
+		
+		
+		Ignite, M., 2022. Microsoft. [Online] 
+		Available at: https://learn.microsoft.com/en-us/training/paths/aspnet-core-web-app/
+		[Accessed 12 September 2022].
+		
+		
+		Ignite, M., 2022. Microsoft. [Online] 
+		Available at: https://learn.microsoft.com/en-us/aspnet/mvc/overview/older-versions-1/overview/asp-net-mvc-overview
+		[Accessed 12 September 2022].
+		
+		
+		Ignite, M., 2022. Microsoft. [Online] 
+		Available at: https://learn.microsoft.com/en-us/aspnet/mvc/overview/older-versions-1/overview/asp-net-mvc-overview
+		[Accessed 13 September 2022].
+		
+		
+		Ignite, M., 2022. Microsoft. [Online] 
+		Available at: https://learn.microsoft.com/en-us/training/modules/secure-aspnet-core-identity/
+		[Accessed 14 September 2022].
+		
+		
+		Jacqui Muller, M. C., 2022. Dropbox. [Online] 
+		Available at: https://www.dropbox.com/sh/p8fiokfpiqv4gud/AAC5X8SdanTnduTWYzVq4kQ7a?dl=0
+		[Accessed 18 September 2022].
+		
+		
+		Microsoft, 2022. Microsoft Training. [Online] 
+		Available at: https://learn.microsoft.com/en-us/training/modules/secure-aspnet-core-identity/
+		[Accessed 13 September 2022].
+		
+		
+		//Repository patterns implentation document provided to us
+		Muller, J., 2022. Efundi. [Online] 
+		[Accessed 16 September 2022].
+		
+		
+		Naik, K., 2022. C# Conner. [Online] 
+		Available at: https://www.c-sharpcorner.com/UploadFile/bd5be5/design-patterns-in-net/
+		[Accessed 13 September 2022].
+		
+		
+		Velayutham, M., 2022. C# Conner. [Online] 
+		Available at: https://www.c-sharpcorner.com/uploadfile/babu_2082/architectural-patterns-in-net/
+		[Accessed 13 September 2022].
+
 
 ##### Project 4
     Repository name == Robotic Process Automation
