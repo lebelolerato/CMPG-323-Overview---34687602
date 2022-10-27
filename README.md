@@ -169,12 +169,100 @@
 
 
 ##### Project 4
-    Repository name == Robotic Process Automation
+    Repository name == CMPG-323-Project-4---34687602
 
     Requirements == Knowledge on testing in this project will crucial
                     UiPath Automation Cloud account
                     UiPath Studio Community Edition
                     Access to the application i will be automating
+
+
+	In this project we are automating the process of logging in, registering into a web page and also inputing data. The we test each data input from the excel 	    file if its valid or not as we input it.
+
+	## This is what is happening in my Automation project:
+	So firstly I am using the UiPath community app and instead of using the modern design experience, I used the classic design experience.
+
+	  ### Steps
+	      1. We read the data in each spreadsheet
+	      2. Create DataTables for Zone, Category, and Device
+	      3. Create the appropriate column names or attributes for each DataTable 
+	      4. We type Each row in each spread sheet into the specifc DataTable
+	      5. Save the data in the each DataTable in a variable for refence later
+
+	  ### Steps for logging in
+
+	      2. Click the login button on the menu or left panel
+	      3. Type your email into the the "Email" TextBox
+	      4. Type your Password into the "Password" Textbox
+	      5. Click the log in button at the bottom
+
+	 ### Steps for Intserting
+
+	      1. Click Zones or Categories or Devices on the left side
+	      2. Click the + icon next to the name on the Table on your right corner
+	      3. Type into the specific fields reading from the specific DataTables
+	      4. Click "create" button
+
+	      For inserting the Device I added an If statement for when the IsActive == True then the UiPath automation should automatically check the active checkbox 		     and if not then click the "create" button
+
+	 ### Steps for Delete
+
+	      1. Click Zones or Categories or Devices on the left side
+	      2. Click the dusbin icon nexg to the item you want to delete
+	      3. Click the delete button.
+
+	 ### Steps for Update
+
+	      1. Click Zones or Categories or Devices on the left side
+	      2. Click the Pen icon next to the item you wanna edit 
+	      3. Read the Text thats already present 
+	      4. Save it in a variable
+	      5. Edit the text by adding the word "EDITED" next to the existing text which is store in a variable
+	      6. Click the "Save" button
+	      7. Click the "Back to list" url
+
+	  ### Reference list
+
+		https://academy.uipath.com/courses/build-your-first-process-with-studio
+
+		https://academy.uipath.com/courses/meet-the-uipath-platform
+
+		https://academy.uipath.com/courses/datatables-and-excel-automation-with-studio-
+
+		https://academy.uipath.com/courses/rpa-testing-with-studio
+
+		https://academy.uipath.com/courses/working-with-orchestrator-resources
+
+		https://academy.uipath.com/courses/debugging-in-studio-
+
+		https://academy.uipath.com/courses/ui-automation-with-studio-
+
+		https://academy.uipath.com/courses/variables-and-arguments-in-studio
+
+		https://academy.uipath.com/courses/control-flow-in-studio
+
+		https://academy.uipath.com/courses/introduction-to-rpa-and-automation
+
+		https://docs.uipath.com/studio/docs/ui-automation
+
+		https://www.uipath.com/learning/video-tutorials/excel-datatables-automation
+
+		https://www.youtube.com/watch?v=BAYmmUuB2Zo
+
+		https://www.youtube.com/watch?v=TT3cgpWutD4
+
+		https://www.dropbox.com/sh/p8fiokfpiqv4gud/AAC5X8SdanTnduTWYzVq4kQ7a?dl=0&preview=10+CMPG322++-+Project+4+20+Oct.mp4
+		
+		
+	### Problems I faced
+	    It was a little hard for me to grasp and undersdand the RPA concents and also to get used to using the UiPath studio
+	    
+	### What I learned
+	    I learned new ways which are very effective when it comes to learning new technologies and concepts
+	    
+	### How to solve the Problem
+	    I need to stop paicking and overthinking that way everything will go smootlhy 
+
 
 ###### Project 5
     Repository name == Power BI
