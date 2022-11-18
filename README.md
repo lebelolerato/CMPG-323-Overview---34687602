@@ -10,6 +10,10 @@
     Requirements == The API should contain at least one get, post, patch and delete method per
                     resource
                     I will use HTTP endpoints for my API to update my database
+
+   # What is an API?
+     Is a set of functions and procedures allowing the creation of applications that access the features or data of an operating system, application, or other service.
+     A web API would be an API over the web that can accessed using HTTP protocol
     
     How my project works == The following methods are methods contained in the models folder and how they work
 	                       1. Zone.cs
@@ -76,16 +80,22 @@
         
         https://thejpanda.com/2020/08/10/python-automating-asp-net-core-web-api-creation-that-communicates-with-your-database-in-60-seconds-or-less/
 
-#### Project 3
+#### Project 3 - MVC Web Application
     Repositort name == MVC Web Application
 
     Requirements == understand architectural patterns as well as pay specific attention to implementing coding principle design patterns
     
     Repository patterns Implementation
+    
+    # What is MVC?
+      MVC (Model-View-Controller) is a pattern in software design commonly used to implement user interfaces, data, and controlling logic. It emphasizes a separation         between the software's business logic and display. This "separation of concerns" provides for a better division of labor and improved maintenance. Some other           design patterns are based on MVC, such as MVVM (Model-View-Viewmodel), MVP (Model-View-Presenter), and MVW (Model-View-Whatever).The three parts of the MVC             software-design pattern can be described as follows:
 
-## How my project works
-    For this project I implemented Tier 2 which is the advanced level of the Repository patterns. I started by creating Repositories folder which contains my Generic,
-    Category, Device and Zone repository classes and interfaces
+      Model: Manages data and business logic.
+      View: Handles layout and display.
+      Controller: Routes commands to the model and view parts.
+
+    ## How my project works
+       For this project I implemented Tier 2 which is the advanced level of the Repository patterns. I started by creating Repositories folder which contains my              Generic, Category, Device and Zone repository classes and interfaces
     
     ### Repository Folder
     
@@ -166,9 +176,11 @@
 		Velayutham, M., 2022. C# Conner. [Online] 
 		Available at: https://www.c-sharpcorner.com/uploadfile/babu_2082/architectural-patterns-in-net/
 		[Accessed 13 September 2022].
+		
+		https://developer.mozilla.org/en-US/docs/Glossary/MVC#:~:text=MVC%20(Model%2DView%2DController,of%20labor%20and%20improved%20maintenance.
 
 
-##### Project 4
+##### Project 4 - Robotic Process Automation (RPA)
     Repository name == CMPG-323-Project-4---34687602
 
     Requirements == Knowledge on testing in this project will crucial
@@ -178,6 +190,9 @@
 
 
 	In this project we are automating the process of logging in, registering into a web page and also inputing data. The we test each data input from the excel 	    file if its valid or not as we input it.
+	
+	# What is Robotic Process Automation (RPA)
+	  Robotic process automation (RPA) is a software technology that makes it easy to build, deploy, and manage software robots that emulate humans actions                   interacting with digital systems and software. Just like people, software robots can do things like understand what’s on a screen, complete the right                   keystrokes, navigate systems, identify and extract data, and perform a wide range of defined actions. But software robots can do it faster and more                     consistently than people, without the need to get up and stretch or take a coffee break.
 
 	## This is what is happening in my Automation project:
 	So firstly I am using the UiPath community app and instead of using the modern design experience, I used the classic design experience.
@@ -253,6 +268,8 @@
 
 		https://www.dropbox.com/sh/p8fiokfpiqv4gud/AAC5X8SdanTnduTWYzVq4kQ7a?dl=0&preview=10+CMPG322++-+Project+4+20+Oct.mp4
 		
+		https://www.uipath.com/rpa/robotic-process-automation
+		
 		
 	### Problems I faced
 	    It was a little hard for me to grasp and undersdand the RPA concents and also to get used to using the UiPath studio
@@ -264,10 +281,13 @@
 	    I need to stop paicking and overthinking that way everything will go smootlhy 
 
 
-###### Project 5
+###### Project 5 - Data Visualization
     Repository name == Power BI
 
     Requirements == Power BI
+    
+    # What is Data Visualization?
+      Data visualization is the graphical representation of information and data. By using visual elements like charts, graphs, and maps, data visualization tools           provide an accessible way to see and understand trends, outliers, and patterns in data. Additionally, it provides an excellent way for employees or business           owners to present data to non-technical audiences without confusion.In the world of Big Data, data visualization tools and technologies are essential to analyze       massive amounts of information and make data-driven decisions.
     
    ## How my project works
 
@@ -289,6 +309,34 @@
 
    ### Filtering 
         For filtering I used the purple navigator on the right of every page under "filters on every page" since the requirement was to do an all page simulteneouse   	      filtering. Under "filters on every page" you'll be able to filter according to category Id's, Date installed and Zone Id's. Under the above categories that I          mentioned above you can choose to filter according to a specific category Id, date installed or zone Id which will be projected in every single page.
+
+
+  ### Reference list
+
+      https://learn.microsoft.com/en-us/training/modules/introduction-power-bi/
+
+      https://learn.microsoft.com/en-us/training/paths/model-power-bi/
+
+      https://spreadsheeto.com/power-bi-best-practices/#:~:text=1%20Put%20first%20things%20first.%20This%20one%20is
+
+      https://powerbi.microsoft.com/en-us/data-storytelling/
+
+      https://thejpanda.com/2021/03/18/power-bi-connecting-power-bi-to-an-excel-file-stored-on-microsoft-teams-sharepoint-or-onedrive-as-a-data-source/
+
+      https://www.youtube.com/results?search_query=how+to+clean+data+in+power+bi
+
+      https://www.youtube.com/watch?v=hs6WIe71r3k
+
+      https://www.youtube.com/results?search_query=how+to+create+a+calculated+column%3F
+
+      https://www.youtube.com/watch?v=n6GgFAsLXFs
+
+      https://www.youtube.com/results?search_query=Add+a+summary+view+that+shows+business+stakeholders+a+high-level+view+of+the+%E2%80%98important%E2%80%99+data.+
+      
+      https://www.tableau.com/learn/articles/data-visualization
+
+
+  	
 
 ###### Branching Strategy
     I chose to use the github flow because it is easier for me to understand, it is easier to manage since i will be working to on my own in this projects and not in a team. Also because each feature will have its own branch thus reducing the chances of my whole system breaking
